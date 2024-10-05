@@ -9,3 +9,13 @@ spring:
     multipart:
       max-file-size: 1GB
       max-request-size: 1GB
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
+    username: rm99948
+    password: 201198
+  jpa:
+    hibernate:
+      ddl-auto: create  # ou 'none', conforme as necessidades de configuração
+open-in-view: false
+show-sql: true
